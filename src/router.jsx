@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import LogInPage from "./pages/LogInPage/LogInPage";
 
 function Router() {
-	const { currentUser, setCurrentUser } = useState(null);
+	
 	const [users, setUsers] = useState([]);
 	const [likedMovieIds, setLikedMovies] = useState([]);
 
